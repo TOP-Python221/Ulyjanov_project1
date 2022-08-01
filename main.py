@@ -6,11 +6,19 @@
 
 # суперцикл
 while True:
-    command = input(' > ').lower()
+    command = input(' Для начала игры введите new для завершения exit: ').lower()
     if command in ('quit', 'exit', 'q', 'e'):
         break
     elif command in ('new', 'n'):
         # начало партии
-        pass
+        def show_field():
+            """ Выводит в стандартый поток игровое поле с ходами игроков """
+            pass
+
+        def check_win():
+            """ Проверяет игровое поле, есть ли выйгрышная комбинация """
+            pass
+
+
 
 
