@@ -20,9 +20,9 @@ while True:
             # закрываем файл
             fh_in.close()
             return PLAYERS_INI
-        # сохраняю в глабальную переменную содержание файла Players.ini
+        # сохраняю в глабальную переменную содержание файла players.ini
         PLAYERS_INI_PATH = read_ini()
-        print(PLAYERS_INI_PATH )
+
 
 
 
