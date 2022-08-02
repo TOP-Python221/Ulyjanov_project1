@@ -22,6 +22,7 @@ while True:
             return PLAYERS_INI
         # сохраняю в глабальную переменную содержание файла players.ini
         PLAYERS_INI_PATH = read_ini()
+        print(PLAYERS_INI_PATH.split())
 
 
 
