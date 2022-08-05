@@ -52,6 +52,17 @@ while True:
         read_ini()
         def save_ini():
             """ Записывает данные в файл save.ini """
+            # запрашивает имена пользователей (так сделал временно)
+            players_name1 = input(' Введите имя игрока1: ')
+            players_name2 = input(' Введите имя игрока1: ')
+            # данные которые будут записаны в файл save.ini
+            file_ini[players_name1, players_name2] = {'X': players_name2, 'turns': '-x-00-0xx'}
+            with open('save.ini', 'a') as configfile:
+                file_ini.write(configfile)
+
+
+# вызов функции (записи)
+        save_ini()
 
 
 
